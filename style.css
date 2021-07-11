@@ -1,0 +1,60 @@
+*{ /*Default*/
+    margin: 2px;
+    padding: 2px;
+
+    font-family:Geneva;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.loginform { /*Make a Box*/
+    position:absolute;
+    padding: 30px 90px;
+    
+    background-color:#ffffff;
+
+    text-align:center;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    
+    text-align: center;
+    margin: 30px;
+    
+    /*make a box-shadow*/
+    box-shadow: -4px -2px 50px 10px #F2F2F2;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px; 
+}
+    
+.from{
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 500px;
+    /* To see the outline of the form */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 20spx;
+}
+
+.remember{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+    
+.underline {
+    width: auto;
+    height: auto;    
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid rgba(231, 231, 231, 0.87);
+    outline: none;    
+}
